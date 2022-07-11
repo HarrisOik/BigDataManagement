@@ -1,0 +1,8 @@
+{
+	"namespace": "kafka.tweets",
+	"type": "record",
+	"name": "tweet",
+	"fields": [
+		{"name": "location", "type": "string"}
+	]
+}
