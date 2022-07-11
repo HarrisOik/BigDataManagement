@@ -4,6 +4,7 @@ The application was developed and tested with the following software:
 - Java 1.8.0_202
 - Eclipse IDE 2020-06
 - Apache Hadoop 3.1.0
+- [bijection Avro 2.12](https://jar-download.com/artifacts/com.twitter/bijection-avro_2.12) 
 - Apache Kafka 2.13-2.7.0
 - Apache Flume 1.9.0
 - Apache Mahout 0.12.0
