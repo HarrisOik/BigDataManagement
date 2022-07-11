@@ -10,6 +10,6 @@ The application was developed and tested with the following software:
 - Apache Mahout 0.12.0
 - Apache Tomcat 9.0.64
 - JSON Simple 1.1.1
-- Twitter Developer Account (Elevated Access)
+- Twitter Developer Account (**Elevated Access**)
 
-Make sure all of the above software is installed on your system. It is recommended that all of the above software is installed on the same folder, specifically under your "C" drive (not inside "Program Files"). Also make sure all of the system paths are set correctly. Follow instructions found on each tool for proper installation.
+Make sure all of the above software is installed on your system. It is recommended that all of the above software is installed on the same folder, specifically under your `C:` drive (not inside `Program Files`). Also make sure all of the system paths are set correctly. Follow instructions found on each tool for proper installation.
