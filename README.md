@@ -27,3 +27,6 @@ The goal for the project is to keep the UI simple while hiding unnecessary compl
 
 ## Installation and Dependencies:
 For instructions and dependencies make sure to visit [here](docs/).
+
+## How to Run:
+For instructions to execute the program, please read [here](docs/run.md)
