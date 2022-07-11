@@ -9,12 +9,9 @@ The project is a web application style management tool that provides the user ac
 
 The goal for the project is to keep the UI simple while hiding unnecessary complexities from the end user.
 
----
 
 
 ## Architecture:
-
----
 
 ### Abstract:
 
@@ -27,8 +24,6 @@ The goal for the project is to keep the UI simple while hiding unnecessary compl
 
 > **NOTICE:** For more information please make sure to read [here](docs/application.md).
 
----
 
 ## Installation and Dependencies:
-
 For instructions and dependencies make sure to visit [here](docs/).
