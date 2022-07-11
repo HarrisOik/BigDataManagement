@@ -20,7 +20,7 @@ For the tools to work properly with the web application, the following libraries
 
 ## Necessary Code Additions/Changes
 
-Within the code, you must change couple of lines to paths and keys/tokens that will be unique to you. There are also couple of lines that SHOULD be general to every computer (e.g. C:/tmp), as well as URLs that assume the tools and services run on default local settings. 
+Within the code, you must change couple of lines to paths and keys/tokens that will be unique to you. There are also couple of lines that SHOULD be general to every computer (e.g. `C:/tmp`), as well as URLs that assume the tools and services run on default local settings. 
 
 First of all, we need to setup the Twitter API credentials. Those will be provided by Twitter when you create a project with your developer account. It is important to have elevated access, since the standard API does not provide streaming data, which is what we will be using. The credentials need to be added in the following lines of code:
 
@@ -37,6 +37,6 @@ We also need to change on various paths for the avro schema. You will need to ad
 - In [formatter.jsp](/WebApp/WebContent/formatter.jsp) you need to add:
   - On line 28, the path that the schema is located.
 - In [twitter.conf](/FlumeConf/twitter.conf) you need to add:
-  - On line 23, the path that the schema is located. (DO NOT CHANGE THE "file:///")
+  - On line 23, the path that the schema is located. (DO NOT CHANGE THE `file:///`)
 
->**IMPORTANT:** You will need to also move the twitter.conf file inside /apache-flume-1.9.0-bin/conf folder in order for Flume to work.
+>**IMPORTANT:** You will need to also move the twitter.conf file inside `/apache-flume-1.9.0-bin/conf` folder in order for Flume to work.
